@@ -6,11 +6,15 @@ def minOperations(n):
     ''' This function finds the minimum number of operations'''
     # Lets initialize a list to store the number of operations
     # ls will has a length of n+1 because we will start from 0
+    # n: represents the target number of H we want to get
+    # ls: is a lis of length n+1 that stores the number of ops required
+    # j: is any
     ls = [0]*(n+1)
-    # Since we already have one H in the editor, we will start from 2
-    # Because number of opraions required to get 1 H is 0
-    ls[1] = 0
     for i in range(2, n+1):
+        # Since we already have one H in the editor, we will start from 2
+        # Because number of opraions required to get 1 H is 0
+        if n <= 1:
+            return 0
         # Since number of max-op required is to copy & paste i 1 time
         # So we will initialize the value of ls[i] to i
         ls[i] = i
