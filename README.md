@@ -6,7 +6,6 @@
 - Minimum operations are commonly used in various algorithms to find the most efficient way to solve a problem.
 - Minimum operations work by analyzing the given problem and identifying the minimum number of steps required to achieve the desired outcome. 
   This involves breaking down the problem into smaller sub-problems and finding the optimal solution for each sub-problem.
-- 
 
 ## Description of Problem
 
