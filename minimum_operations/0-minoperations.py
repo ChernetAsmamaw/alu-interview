@@ -1,9 +1,11 @@
 #!/usr/bin/python3
-
+''' This program finds the minimum number of
+operations required to get n number of H'''
 
 def minOperations(n):
+    ''' This function finds the minimum number of operations'''
     # Lets initialize a list to store the number of operations
-    # ls will has a lenght of n+1 because we will start from 0
+    # ls will has a length of n+1 because we will start from 0
     ls = [0]*(n+1)
     # Since we already have one H in the editor, we will start from 2
     # Because number of opraions required to get 1 H is 0
