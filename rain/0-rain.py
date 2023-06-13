@@ -15,17 +15,18 @@
 
 """
 
+
 def rain(walls):
     '''Return: Integer indicating total amount of rainwater retained'''
-        # walls is a list of non-negative integers 
-        # Eg: [0, 1, 0, 2, 0, 3, 0, 4] -> 6
+    # walls is a list of non-negative integers
+    # Eg: [0, 1, 0, 2, 0, 3, 0, 4] -> 6
 
     if not walls:
         return 0
 
     left = 0
     right = len(walls) - 1
-    
+
     left_max = walls[left]
     right_max = walls[right]
 
