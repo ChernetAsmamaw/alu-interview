@@ -11,9 +11,10 @@
     - Output: [[1], [1, 1], [1, 2, 1], [1, 3, 3, 1]] {4 rows}
 """
 
+
 def pascal_triangle(n):
     """Returns a list of lists of integers representing the Pascal’s
-       triangle of n
+    triangle of n
     """
     if n <= 0:
         return []
